@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    background: #ff8a00;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header>h1>a>img {
+    width: 9rem;
+    height: 3.34rem;
+}
+
+header>.icon>a>img {
+    width: 2.23rem;
+    height: 2.29rem;
+    margin-left: 1.2rem;
+}
+
+/* --------------------------------------- */
+.search {
+    width: 22rem;
+    margin: 1.2rem auto;
+    position: relative;
+}
+
+.search>input {
+    width: 22rem;
+    line-height: 15rem;
+    height: 2.4rem;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #cccccc;
+    padding-left: 0.1rem;
+    font-size: 0.12rem;
+}
+
+.shu {
+    position: absolute;
+    top: .5rem;
+    right: 3rem;
+}
+
+.fangdajing {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+}
+
+.fangdajing>img {
+    width: 1.18rem;
+    height: 1.2rem;
+}
+
+/* -------------选择-------- */
+.xuanze {
+    width: 100%;
+    height: 2.5rem;
+}
+
+.xuanze>ul {
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    /* position: relative; */
+    background: #FFF;
+}
+
+.xuanze>ul>li {
+    position: relative;
+}
+
+.xuanze>ul>li>h3>a>span {
+    border-top: 5px solid #ccc;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    position: absolute;
+    top: 0.4rem;
+    right: -0.9rem;
+}
+
+/* ----------main--------------------- */
+.main {
+    height: 21rem;
+
+}
+
+.main>.a {
+    height: 19rem;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main>ul>li {
+    width: 100%;
+    display: flex;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid #ff8a00;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left>img {
+    width: 4.81rem;
+    height: 4.81rem;
+}
+
+.top {
+    margin-top: .5rem;
+}
+
+.right>p {
+    font-size: 0.14rem;
+}
+
+.right>p>strong {
+    color: #ff8a00;
+}
+
+.hui {
+    color: #b0b0b0;
+}
+
+/* footer */
+/* ----------------------------------- */
+footer {
+    background: #2f3130;
+    color: #939494;
+    padding: 0 0.15rem;
+    overflow: hidden;
+}
+
+footer>h3 {
+    margin: 1rem;
+}
+
+footer>.bottom {
+    border-top: 1px solid #b0b0b0;
+    padding: 1.15rem 0;
+}
+
+footer>.bottom>ul {
+    display: flex;
+}
+
+footer>.bottom>ul>li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+}
+
+footer>.bottom>ul>li>img {
+    width: 2.18rem;
+    height: 2.21rem;
+    margin-right: 0.16rem;
+    margin-left: 0.1rem;
+}
+
+.text {
+    margin-top: 1.16rem;
+}

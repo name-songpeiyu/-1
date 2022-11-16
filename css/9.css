@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------头---------------- */
+html {
+    font-size: 16px;
+}
+
+header {
+    background: #ff8a00;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header>h1>a>img {
+    width: 9rem;
+    height: 3.34rem;
+}
+
+header>.icon>a>img {
+    width: 2.23rem;
+    height: 2.29rem;
+    margin-left: 1.2rem;
+}
+
+/* ------------------- */
+/* 北京 */
+.bj {
+    height: 2.36rem;
+    line-height: 2.36rem;
+    background: #ffffff;
+    border-bottom: 1px solid #c5c5c5;
+    padding-left: 1.15rem;
+}
+
+/* ============================== */
+.nei {
+    padding: 0 2rem;
+
+}
+
+.nei>li {
+    border-bottom: 1px solid #ff8a00;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nei>li:last-child {
+    border: none;
+}
+
+.nei>li>.left>img {
+    width: 5.81rem;
+    height: 5.81rem;
+}
+
+.right {
+    width: 11.87rem;
+    font-size: .9rem;
+}
+
+.right>h4 {
+    margin-bottom: 0.5rem;
+}
+
+.retalCont1 {
+    margin-top: 0.5rem;
+}
+
+/* .retalCont1>span {
+    color: #6da719;
+    float: left;
+    padding: 0 0.05rem;
+    border: 1px solid #6da719;
+    border-radius: 2px;
+} */
+
+.retalCont1>strong {
+    color: #ff8a00;
+    float: right;
+}
+
+.right>p:last-child {
+    margin-top: 0.5rem;
+}
