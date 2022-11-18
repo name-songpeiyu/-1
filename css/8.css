@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box>.box1 {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255, 138, 0);
+    display: flex;
+}
+
+.box>.box1>div {
+    display: flex;
+    align-items: center;
+}
+
+.box>.box1>div>img {
+    height: 80%;
+}
+
+.box>.box1>div:nth-of-type(1) {
+    flex: 3;
+}
+
+.box>.box1>div:nth-of-type(2) {
+    flex: 1;
+}
+
+.box>.box1>div:nth-of-type(3) {
+    flex: 1;
+}
+
+.box>.p1 {
+    width: 100%;
+    height: 4rem;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.box>.p1>span {
+    font-weight: 600;
+}
+
+.box>.box2 {
+    width: 100%;
+    height: 20rem;
+    background: url(../image/my/bg2.png) no-repeat 0px 0px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box>.box2>p {
+    font-size: 2rem;
+    color: white;
+}
+
+.box>ul {
+    width: 100%;
+    list-style: none;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+}
+
+.box>ul>li {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    color: #999;
+    border-bottom: .1rem rgb(214, 213, 213) solid;
+    line-height: 4rem;
+    background: url(../image/my/right.png) no-repeat 30rem 1.5rem;
+    background-size: 2rem 2rem;
+}
+
+.box>button {
+    color: orange;
+    width: 95%;
+    height: 4rem;
+    border-radius: .5rem;
+    border: .1rem rgb(208, 206, 206) solid;
+    margin: 2rem auto;
+    font-size: 2rem;
+    line-height: 4rem;
+    cursor: pointer;
+}

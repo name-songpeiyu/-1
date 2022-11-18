@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box>.box1 {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255, 138, 0);
+    display: flex;
+}
+
+.box>.box1>div {
+    display: flex;
+    align-items: center;
+}
+
+.box>.box1>div>img {
+    height: 80%;
+}
+
+.box>.box1>div:nth-of-type(1) {
+    flex: 3;
+}
+
+.box>.box1>div:nth-of-type(2) {
+    flex: 1;
+}
+
+.box>.box1>div:nth-of-type(3) {
+    flex: 1;
+}
+
+.box>.p1 {
+    width: 100%;
+    height: 4rem;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    line-height: 4rem;
+    border-bottom: .1rem #999 solid;
+}
+
+.box>.p1>span {
+    font-weight: 600;
+}
+
+.box>ul {
+    width: 100%;
+    list-style: none;
+}
+
+.box>ul>li {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    line-height: 4rem;
+    border-bottom: .1rem rgb(205, 201, 201) solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.box>ul>li>span {
+    position: absolute;
+    top: 1rem;
+    left: 10rem;
+    font-size: 1.4rem;
+}
+
+.box>ul>li>input {
+    border: none;
+    flex: 2;
+    font-size: 1.6rem;
+}
+
+.box>ul>li>input:focus {
+    outline: none;
+}
+
+.box>ul>li>a {
+    flex: 1;
+    border: .1rem #999 solid;
+    border-radius: .5rem;
+    text-align: center;
+    color: #999;
+}
+
+.box>button {
+    width: 100%;
+    height: 4rem;
+    margin-top: 2rem;
+    border-radius: .5rem;
+    color: white;
+    line-height: 4rem;
+    text-align: center;
+    background-color: rgb(255, 138, 0);
+    border: none;
+    cursor: pointer;
+}
