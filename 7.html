@@ -67,11 +67,11 @@
             yz.innerText = '重新发送';
         }
     }
-    touch.on(yz, 'tap', function() {
+    touch.on(yz, 'tap', function () {
         clearInterval(timer);
         timer = setInterval(fn, 1000);
     });
-    ipt1.onblur = function() {
+    ipt1.onblur = function () {
         var reg = /^(0|86|17951)?(13[0-9]|15[012356789]|166|17[3678]|18[0-9]|14[57])[0-9]{8}$/;
         right = reg.test(ipt1.value); //true
         if (ipt1.value == '') {
@@ -85,7 +85,7 @@
             sp1.style.color = 'green';
         }
     }
-    ipt2.onblur = function() {
+    ipt2.onblur = function () {
         if (ipt2.value == '0134') {
             sp2.innerText = '输入正确';
             sp2.style.color = 'green';
@@ -95,10 +95,10 @@
             sp2.style.color = 'red';
         }
     }
-    ipt3.onfocus = function() {
+    ipt3.onfocus = function () {
         sp3.innerText = '由数字字母下划线组成，密码长度不能小于6位';
     }
-    ipt3.onblur = function() {
+    ipt3.onblur = function () {
         var reg = /^\w{6,}$/;
         right2 = reg.test(ipt3.value);
         if (ipt3.value == '') {
@@ -112,7 +112,7 @@
             sp3.style.color = 'green';
         }
     }
-    touch.on(btn, 'tap', function() {
+    touch.on(btn, 'tap', function () {
         if (right == true && right1 == true && right2 == true) {
             alert('注册成功');
             window.location.href = './11.html';
